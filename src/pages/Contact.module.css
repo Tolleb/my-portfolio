@@ -1,0 +1,32 @@
+/** @format */
+
+.line {
+  margin-bottom: 35px;
+}
+.contactlink {
+  margin-bottom: 25px;
+}
+.contactlink h6 {
+  margin-bottom: 30px;
+}
+.contactlink i {
+  margin-right: 25px;
+  color: #664847;
+  font-size: 25px;
+}
+.whatsapp {
+  margin-right: 30px;
+  color: #664847;
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  .contactlink h6 {
+    font-size: 8px;
+  }
+  .contactlink i {
+    font-size: 14px;
+  }
+  .whatsapp {
+    font-size: 14px;
+  }
+}

@@ -1,38 +1,96 @@
-.App {
+/** @format */
+.mysidenav {
+  background-color: #c9c9c7 !important;
+  font-family: "segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidenav---sidenav-toggle---1KRjR .sidenav---icon-bar---u1f02 {
+  background-color: rgb(59, 16, 16) !important;
+}
+/* start home */
+.home {
+  background: url(./assets/home.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 657px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
   text-align: center;
+  margin-left: 64px;
+  padding-top: 15%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  .home {
+    height: 657px;
+  }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .home {
+    height: 945px;
+  }
+}
+/*  Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .home {
+    height: 657px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 768px) {
+  .home {
+    padding-top: 54%;
+    height: 945px;
   }
-  to {
-    transform: rotate(360deg);
+}
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .home {
+    height: 945px;
   }
+}
+/* end home */
+/* start about */
+.about {
+  margin: 40px 20px 40px 84px;
+  background: #fff;
+  box-shadow: 0 0 13px rgb(0 0 0 / 22%);
+  padding: 45px 30px;
+}
+/* end about */
+/* start work */
+.work {
+  padding: 50px 20px 40px 84px;
+}
+/* end work */
+/* start contact */
+.contact {
+  margin: 40px 20px 40px 84px;
+  background: #fff;
+  box-shadow: 0 0 13px rgb(0 0 0 / 22%);
+  padding: 45px 30px;
+}
+/* end contact */
+h2 {
+  margin-left: 25px;
+}
+h4 {
+  color: rgb(59 16 16);
+  font-weight: 400;
+  line-height: 1.6;
+}
+.sidenav---sidenav---_2tBP {
+  position: fixed !important;
+}
+.slick-dots li button:before {
+  font-size: 15px !important;
+}
+iframe {
+  height: 309px;
+  border: 1px solid #8080803d;
+  padding: 5px;
 }
